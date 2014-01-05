@@ -1,0 +1,6 @@
+{"ts":1388891554261,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1388891866063,"patch":[[{"diffs":[[1,"#addClientForm .add{\n    margin-bottom: 10px;\n    margin-left: 10px;\n}"]],"start1":0,"start2":0,"length1":0,"length2":70}]],"length":70,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1388898713724,"patch":[[{"diffs":[[0,"ient"],[-1,"Form"],[1,"Modal"],[0," .ad"]],"start1":6,"start2":6,"length1":12,"length2":13}]],"length":71,"saved":false}
+{"ts":1388898790168,"patch":[[{"diffs":[[0,"#"],[-1,"addC"],[1,"c"],[0,"lient"],[-1,"Modal .add"],[1,"Select .addclient-btn"],[0,"{\n  "]],"start1":0,"start2":0,"length1":24,"length2":32}]],"length":79,"saved":false}
+{"ts":1388898841935,"patch":[[{"diffs":[[-1,"#clientSelect "],[0,".add"]],"start1":0,"start2":0,"length1":18,"length2":4}]],"length":65,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1388899395348,"patch":[[{"diffs":[[0,"ient-btn"],[1,",.removeclient-btn"],[0,"{\n    ma"]],"start1":6,"start2":6,"length1":16,"length2":34},{"diffs":[[0,": 10px;\n"],[1,"    \n"],[0,"}"]],"start1":74,"start2":74,"length1":9,"length2":14}]],"length":88,"saved":false}

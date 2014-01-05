@@ -1,0 +1,20 @@
+<template name="shoutbox">
+    {{>shoutentry}}
+    {{>shoutboard}}
+</template>
+
+<template name="shoutentry">
+    <div id="shoutform">
+        <input type="text" id="name" data-field="name" placeholder="Your Name Here..." class="sformdata">
+        <textarea type="text" id="message" data-field="message" placeholder="Type your message..." class="sformdata"></textarea>
+            <button type="submit" class="submit btn"><i class="submit icon-pencil"></i></button>
+    </div>
+</template>
+
+<template name="shoutboard">
+    <div id="shoutview">
+        {{#each shouts}}
+            <i class="remove icon-trash"></i> {{name}}: "{{message}}"<br/>
+        {{/each}}
+    </div>
+</template>
