@@ -1,0 +1,3 @@
+{"ts":1388974985531,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1388975038714,"patch":[[{"diffs":[[1,"Accounts.ui.config({\r\n  passwordSignupFields: 'USERNAME_AND_EMAIL'\r\n});"]],"start1":0,"start2":0,"length1":0,"length2":71}]],"length":71,"saved":false}
+{"ts":1388975056000,"patch":[[{"diffs":[[1,"if(Meteor.isClient){\r\n    "],[0,"Accounts"]],"start1":0,"start2":0,"length1":8,"length2":34},{"diffs":[[0,"nfig({\r\n"],[1,"    "],[0,"  passwo"]],"start1":40,"start2":40,"length1":16,"length2":20},{"diffs":[[0,"L'\r\n"],[-1,"});"],[1,"    });\r\n}"]],"start1":94,"start2":94,"length1":7,"length2":14}]],"length":108,"saved":false}

@@ -3,6 +3,7 @@ if (Meteor.isClient) {
     Template.shoutentry.events({
         'click .submit': function(event) {
             var sformdata = {};
+            sformdata["name"] = Meteor.user().username;
             $("#shoutform").find(".sformdata").each(function() {
                 var fieldtype = $(this).attr('data-field');
                 sformdata[fieldtype] = $(this).val();

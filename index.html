@@ -14,7 +14,8 @@
                 <a class="brand" href="#">CodeTrak Dev Edition</a>
                 <div class="nav-collapse collapse">
                     <p class="navbar-text pull-right">
-                    Logged in as <a href="#" class="navbar-link">Username</a>
+                    
+                    <!--Logged in as <a href="#" class="navbar-link">Username</a>-->
                     </p>
                     <ul class="nav">
                         <li class="active"><a href="#">Home</a></li>
@@ -29,10 +30,13 @@
     <div class="container-fluid app-container-fluid">
         <div class="row-fluid">
             <div class="span8">
-            
+                <div class='well'>
+                    {{>taskpro}}
+                </div>
             </div><!--/span-->
             
             <div class="span4">
+            <div class="well">{{loginButtons}}</div>
                 <div class="well">
                     {{>clientTrakCombos}}
                 </div><!--/.well -->
@@ -49,3 +53,4 @@
         
     </div><!--/.fluid-container-->
 </body>
+

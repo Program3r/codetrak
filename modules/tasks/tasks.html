@@ -1,0 +1,19 @@
+<template name="taskpro">
+    {{>taskform}}
+    {{>tasklist}}
+</template>
+
+<template name="taskform">
+    <div id="taskentry">
+        <input type="text" id="name" data-field="name" placeholder="Add a Task..." class="tformdata">
+        <button type="submit" class="submit btn"><i class="submit icon-plus"></i></button>
+    </div>
+</template>
+
+<template name="tasklist">
+    <div id="taskviewer">
+        {{#each tasks}}
+            TASK<br/>
+        {{/each}}
+    </div>
+</template>
