@@ -11,10 +11,6 @@ if(Meteor.isClient){
     Meteor.startup(function(){
        $("#clientSelect").change(function(){
           Session.set("selectedClientId",$("#clientSelect").val());
-          setTimeout(function(){
-              Session.set("selectedProjectId", $("#projectSelect").val()); 
-          },1000)
-          
        });
        
         Session.set("selectedClientId",$("#clientSelect").val()); 

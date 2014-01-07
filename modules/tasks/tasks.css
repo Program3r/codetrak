@@ -1,0 +1,9 @@
+#taskviewer .controls{
+    margin-top: 4px;
+}
+#taskviewer .editable{
+    border-bottom:none;
+}
+#taskviewer .control-label{
+    font-weight:bold;
+}
